@@ -1,16 +1,21 @@
-<<<<<<< HEAD
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
     box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
 
-.container{
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
-    padding: 10px;
+body{
+    background: #222
 }
-=======
->>>>>>> c511826145984d8ba74cf6e75888deab17cecde9
+
+.card{
+    width: 98%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
